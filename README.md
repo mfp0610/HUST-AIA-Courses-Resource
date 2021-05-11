@@ -7,7 +7,6 @@
 >
 > 目的是为学弟学妹提供参考，帮助大家顺利通过考试！
 >
-> 在使用前可先查看项目一览确定有无自己需要的资料
 
 ## 项目一览
 
@@ -16,6 +15,8 @@
 > > 第1学期
 > >
 > > > C语言：课件，BC工具包
+> > >
+> > > 大学物理：复习ppt（下），同步辅导
 > >
 > > 第2学期
 > >
@@ -41,7 +42,12 @@
 >
 > 公共选修课
 >
-> > 
+> > 暂无
+
+注：
+
+1. 在使用前可先查看项目一览确定有无自己需要的资料。
+2. 开设两学期的课程，存放在第一次开设时的学期目录。如：大物上下的资料都存放在第一学期内。
 
 ## 管理与投稿
 
@@ -51,9 +57,9 @@
 
 ## 贡献者名录
 
-所属组织：[@AIAHUB](https://github.com/AIAHUB)
+所属组织：[@AIAHUB](https://github.com/AIAHUB){:target="_blank"}
 
-发起者：[@Fanpeng-Meng](https://github.com/mfp0610)   [@ZI'ao-Li](https://github.com/Leeziao)   [@Wenjie-Qu](https://github.com/quwenjie)
+发起者：[@Fanpeng-Meng](https://github.com/mfp0610){:target="_blank"}   [@ZI'ao-Li](https://github.com/Leeziao){:target="_blank"}   [@Wenjie-Qu](https://github.com/quwenjie){:target="_blank"}
 
 参与者：
 
