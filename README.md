@@ -61,7 +61,7 @@
 
 发起者：[@Fanpeng-Meng](https://github.com/mfp0610)   [@Zi'ao-Li](https://github.com/Leeziao)   [@Wenjie-Qu](https://github.com/quwenjie)
 
-参与者：
+参与者：[@Tingbing-Yan]
 
 ## 版权声明
 
