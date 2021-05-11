@@ -57,9 +57,9 @@
 
 ## 贡献者名录
 
-所属组织：[@AIAHUB](https://github.com/AIAHUB){:target="_blank"}
+所属组织：[@AIAHUB](https://github.com/AIAHUB)
 
-发起者：[@Fanpeng-Meng](https://github.com/mfp0610){:target="_blank"}   [@ZI'ao-Li](https://github.com/Leeziao){:target="_blank"}   [@Wenjie-Qu](https://github.com/quwenjie){:target="_blank"}
+发起者：[@Fanpeng-Meng](https://github.com/mfp0610)   [@ZI'ao-Li](https://github.com/Leeziao)   [@Wenjie-Qu](https://github.com/quwenjie)
 
 参与者：
 
