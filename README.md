@@ -59,7 +59,7 @@
 
 所属组织：[@AIAHUB](https://github.com/AIAHUB)
 
-发起者：[@Fanpeng-Meng](https://github.com/mfp0610)   [@ZI'ao-Li](https://github.com/Leeziao)   [@Wenjie-Qu](https://github.com/quwenjie)
+发起者：[@Fanpeng-Meng](https://github.com/mfp0610)   [@Zi'ao-Li](https://github.com/Leeziao)   [@Wenjie-Qu](https://github.com/quwenjie)
 
 参与者：
 
