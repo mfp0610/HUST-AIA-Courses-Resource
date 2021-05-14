@@ -36,6 +36,12 @@
 > > 第4学期
 > >
 > > > 计算方法：课件，复习ppt
+> >
+> > 第5学期
+> >
+> > > 自动控制原理：课件，试卷
+> > >
+> > > 计算机网络：试卷
 >
 > 专业选修课
 >
@@ -44,6 +50,14 @@
 > > > 数据库技术：课件，试卷
 > > >
 > > > 互联网技术：课件，示例代码，课程作业（by mfp）
+> >
+> > 第6学期
+> >
+> > > 计算机视觉：试卷
+> > >
+> > > 人工智能导论：试卷
+> > >
+> > > 人机交互：课件
 >
 > 公共选修课
 >
@@ -66,7 +80,7 @@
 
 发起者：[@Fanpeng-Meng](https://github.com/mfp0610)   [@ZI'ao-Li](https://github.com/Leeziao)   [@Wenjie-Qu](https://github.com/quwenjie)
 
-参与者：[@Tingbing-Yan]()   [Shaozhe-Hao](https://github.com/haoosz)
+参与者：[@Tingbing-Yan]()   [@Shaozhe-Hao](https://github.com/haoosz)
 
 ## 版权声明
 
