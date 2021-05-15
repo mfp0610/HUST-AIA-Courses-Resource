@@ -1,0 +1,5 @@
+% java Freq if it is to be it is up to me to delegate
+
+8 distinct words detected:
+{to=3, me=1, delegate=1, it=2, is=2, if=1, be=1, up=1}
+
