@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>天气查询</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <style>
+        body {
+            background-color: rgba(206, 205, 205, 0.637);
+        }
+        .weatherTitle {
+            text-align: center;
+        }
+        #today {
+            color: red;
+        }
+        .mainContainer {
+            width: 793px;
+            margin: 0 auto;
+            background-color: white;
+            border-color:black;
+            border-width: 10px;
+        }
+        .dayContainer {
+            display: inline-block;
+            width: 155px;
+            box-sizing: border-box;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .dayContainer:hover {
+            background: #f5f5f6;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainContainer">
+        <h1 class="weatherTitle">武汉市的天气</h1>
+        <div class="dayContainer">
+            <div id="today">今天</div>
+            <div id="lunar">农历</div>
+            <div class="temp">温度：</div>
+            <div class="pm25">pm2.5： </div>
+            <img src="" /></div><div class="dayContainer">
+            <div id="tomorrow">明天</div>
+            <div class="temp">温度：</div>
+            <div class="pm25">pm2.5： </div>
+            <img src="" />            
+        </div><div class="dayContainer">
+            <div id="thirdday">后天</div>
+            <div class="temp">温度：</div>
+            <div class="pm25">pm2.5： </div>
+            <img src="" />            
+        </div><div class="dayContainer">
+            <div id="fourthday">4</div>
+            <div class="temp">温度：</div>
+            <div class="pm25">pm2.5： </div>
+            <img src="" />            
+        </div><div class="dayContainer">
+            <div id="fifthday">5</div>
+            <div class="temp">温度：</div>
+            <div class="pm25">pm2.5： </div>
+            <img src="" />            
+        </div>
+    </div>
+	<script>
+	// var xmlReq = new XMLHttpRequest();
+ //    xmlReq.onreadystatechange=state_Change;
+ //    xmlReq.open("GET", "https://www.baidu.com/home/other/data/weatherInfo?city="+encodeURI("武汉"), true);
+ //    xmlReq.send();
+
+ //    var data ;  // = JSON.parse(xmlReq.responseText).data.weather.content；
+
+ //    function state_Change()
+ //    {
+ //        if (xmlReq.readyState==4)
+ //        {// 4 = "loaded"
+ //            if (xmlReq.status==200)
+ //            {// 200 = OK
+ //                // ...our code here...
+ //                data = JSON.parse(xmlReq.responseText).data.weather.content;
+ //                document.querySelector('#today').textContent += data.week;
+ //                document.querySelector('#lunar').textContent += data.calendar.lunar;
+ //                var temp = document.querySelector(".temp");
+ //                temp.textContent += data.today.temp;
+ //                var pm25 = document.querySelector(".pm25");
+ //                pm25.textContent += data.today.pm25;
+ //            }
+ //            else
+ //            {
+ //            alert("Problem retrieving XML data");
+ //            }
+ //        }
+ //    }
+    var iconMap = {
+        a0 : 'weather_icon/a0.jpg',
+        a1 : 'weather_icon/a1.jpg',
+        a2 : 'weather_icon/a2.jpg',
+        a3 : 'weather_icon/a3.jpg',
+        a4 : 'weather_icon/a4.jpg',
+        a5 : 'weather_icon/a5.jpg',
+        a6 : 'weather_icon/a6.jpg',
+        a7 : 'weather_icon/a7.jpg',
+        a8 : 'weather_icon/a8.jpg',
+        a9 : 'weather_icon/a9.jpg',
+        a10 : 'weather_icon/a10.jpg',
+        a11 : 'weather_icon/a11.jpg',
+        a12 : 'weather_icon/a12.jpg',
+        a13 : 'weather_icon/a13.jpg',
+        a14 : 'weather_icon/a14.jpg',
+        a15 : 'weather_icon/a15.jpg',
+        a16 : 'weather_icon/a16.jpg',
+        a17 : 'weather_icon/a17.jpg',
+        a18 : 'weather_icon/a18.jpg',
+        a19 : 'weather_icon/a19.jpg',
+        a20 : 'weather_icon/a20.jpg',
+        a21 : 'weather_icon/a21.jpg',
+        a22 : 'weather_icon/a22.jpg',
+        a23 : 'weather_icon/a23.jpg',
+        a24 : 'weather_icon/a24.jpg',
+        a25 : 'weather_icon/a25.jpg',
+        a26 : 'weather_icon/a26.jpg',
+        a27 : 'weather_icon/a27.jpg',
+        a28 : 'weather_icon/a28.jpg',
+        a29 : 'weather_icon/a29.jpg',
+        a30 : 'weather_icon/a30.jpg',
+        a31 : 'weather_icon/a31.jpg',
+        a32 : 'weather_icon/a32.jpg',
+        a33 : 'weather_icon/a33.jpg',
+        a34 : 'weather_icon/a34.jpg'
+    }
+
+    var jsonHandler = function(weatherInfo){
+        var data = weatherInfo.data.weather.content;
+
+        document.querySelector('#today').textContent += data.week;
+        document.querySelector('#lunar').textContent += data.calendar.lunar;
+        var temp = document.querySelector(".temp");
+        temp.textContent += data.today.temp;
+        var pm25 = document.querySelector(".pm25");
+        pm25.textContent += data.today.pm25;
+        var imgList = document.querySelectorAll("img");
+        imgList[0].src = iconMap[data.today.imgs[0]];
+        imgList[1].src = iconMap[data.tomorrow.imgs[0]];
+        imgList[2].src = iconMap[data.thirdday.imgs[0]];
+        imgList[3].src = iconMap[data.fourthday.imgs[0]];
+        imgList[4].src = iconMap[data.fifthday.imgs[0]];
+    }
+    // $(document).ready(function(){
+    //     $.getJSON("https://www.baidu.com/home/other/data/weatherInfo?city="+encodeURI("武汉"), jsonHandler);
+    // })
+    var jsonData = document.createElement("script");
+    jsonData.src = "https://www.baidu.com/home/other/data/weatherInfo?city="+encodeURI("武汉")+"&&callback=jsonHandler"
+    document.querySelector("head").appendChild(jsonData)
+    
+	</script>
+	<!-- <script src="https://www.baidu.com/home/other/data/weatherInfo?city=武汉&&jsonp=jsonHandler"></script> -->
+</body>
+</html>

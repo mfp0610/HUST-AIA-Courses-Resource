@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="7-12-1.xsl"?>
+<StudentList>
+1999年期中考试成绩
+  <Student Age="19">
+    <ID>990301</ID>
+    <Name>赵伯忠</Name>
+    <Photo>http://www.baidu.com/img/bd_logo1.png</Photo>
+    <Mark>
+      <Computer>96</Computer>
+      <English>95</English>
+      <Literature>93</Literature>
+      <Philosophy>97</Philosophy>
+    </Mark>
+  </Student>
+  <Student Age="18">
+    <ID>990302</ID>
+    <Name>钱仲孝</Name>
+    <Photo>1.bmp</Photo>
+    <Mark>
+      <Computer>82</Computer>
+      <English>97</English>
+      <Literature>88</Literature>
+      <Philosophy>75</Philosophy>
+    </Mark>
+  </Student>
+  <Student Age="19">
+    <!-- 哲学缺考   -->
+    <ID>990303</ID>
+    <Name>孙叔仁</Name>
+    <Photo>http://www.baidu.com/img/logo.gif</Photo>
+    <Mark>
+      <Computer>91</Computer>
+      <English>90</English>
+      <Literature>73</Literature>
+      <Philosophy>0</Philosophy>
+    </Mark>
+  </Student>
+  <Student Age="21">
+    <ID>990304</ID>
+    <Name>李季义</Name>
+    <Photo>http://www.baidu.com/img/logo.gif</Photo>
+    <Mark>
+      <Computer>56</Computer>
+      <English>91</English>
+      <Literature>86</Literature>
+      <Philosophy>61</Philosophy>
+    </Mark>
+  </Student>
+</StudentList>

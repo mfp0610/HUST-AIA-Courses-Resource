@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:invoice xmlns:tns="http://invoice" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://invoice invoice.xsd ">
+  <tns:date>2017-11-30_INVALID</tns:date>
+  <tns:number>5235_INVALID</tns:number>
+  <tns:products>
+    <tns:product description="laptop" price="700.00_INVALID"/>
+    <tns:product price="40.00"/>
+    <tns:product description="mouse" price="30.00" INVALID="" />
+  </tns:products>
+  <tns:payments>
+    <tns:payment amount="770.00" method="credit_INVALID"/>
+  </tns:payments>
+</tns:invoice>

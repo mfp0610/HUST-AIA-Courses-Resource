@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ball Demo</title>
+    <style>
+        .ball {
+            width: 80px;
+            height: 80px;
+            border-radius: 40px;
+            text-align: center;
+            font-size: 40px;
+            line-height: 2;
+            margin-left: 10px;
+        }
+        .ball1 {
+            background-color: red;
+        }
+        .ball2 {
+            background-color: green;
+        }
+        .ball3 {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="ball ball1">1</div>
+    <div class="ball ball2">2</div>
+    <div class="ball ball3">3</div>
+    <script>
+        var ball1 = document.querySelector('.ball1');
+        var ball2 = document.querySelector('.ball2');
+        var ball3 = document.querySelector('.ball3');
+
+        function animation(ball, distance, callback) {
+            setTimeout(function() {
+                var marginLeft = parseInt(ball.style.marginLeft, 10);
+                if(isNaN(marginLeft))
+                    marginLeft = 0;
+
+                if (marginLeft === distance){
+                    callback();
+                }
+                else {
+                    if (marginLeft < distance)
+                        marginLeft += 5;
+                    else
+                        marginLeft -= 5;
+
+                    ball.style.marginLeft = marginLeft + 'px';
+                    animation(ball, distance, callback);
+                }
+            }, 13);
+        }
+        animation(ball1, 200, function(){
+            animation(ball2, 300, function(){
+                animation(ball3, 400, function(){
+                    animation(ball3, 200, function(){
+                        animation(ball2, 200, function(){
+
+                        })
+                    })
+                })
+            })
+        });
+    </script>
+</body>
+</html>

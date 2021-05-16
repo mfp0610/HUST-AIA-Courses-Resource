@@ -7,10 +7,16 @@
 >
 > 目的是为学弟学妹提供参考，帮助大家顺利通过考试！
 
-## 如何下载
+## 下载方法
+
+下载整个文件集的方法：
 
 - 直接以ZIP的方式打包下载
 - 如果你会使用Git，运行`git clone git@github.com:AIAHUB/HUST-AIA-Courses-Resource.git --depth=1`
+
+如果您觉得整个文件集太大，下载太慢，也可以用以下方法下载单个文件：
+
+- 点击查看某文件后，点击"view raw"下载
 
 ## 项目一览
 
@@ -25,6 +31,8 @@
 > > > 微积分：试卷（下）
 > > >
 > > > 线性代数：课件，周测及答案
+> > >
+> > > 物理实验：课件（下）
 > >
 > > 第2学期
 > >
@@ -59,7 +67,6 @@
 > > > 数据库技术：课件，试卷
 > > > 
 > > > 互联网技术：课件，示例代码，课程作业（by mfp）
-> > >
 > >
 > > 第6学期
 > >
@@ -68,6 +75,8 @@
 > > > 人工智能导论：试卷
 > > >
 > > > 人机交互：课件
+> > >
+> > > 系统仿真与Matlab：课件，案例，试卷
 >
 > 公共选修课
 >
@@ -88,12 +97,17 @@
 
 所属组织：[@AIAHUB](https://github.com/AIAHUB)
 
-发起者：[@Fanpeng-Meng](https://github.com/mfp0610)   [@ZI'ao-Li](https://github.com/Leeziao)   [@Wenjie-Qu](https://github.com/quwenjie)
+发起者：[@Fanpeng-Meng](https://github.com/mfp0610)   [@Zi'ao-Li](https://github.com/Leeziao)   [@Wenjie-Qu](https://github.com/quwenjie)
 
-参与者：[@Tingbing-Yan]()   [@Shaozhe-Hao](https://github.com/haoosz)
+参与者：[@Tingbing-Yan]()   [@Shaozhe-Hao](https://github.com/haoosz)   [@Linhai-Zhang]()
+
+整理不易！欢迎大家多多投币支持我们！
+
+<img src="./pic/donate.jpg" width="20%" align=left>
 
 ## 版权声明
 
 所有资源，著作权归原作者所有，此repo的目的是**学习交流**；
 
 如果使用者的不当使用造成不良后果，与此repo的贡献者无关。
+

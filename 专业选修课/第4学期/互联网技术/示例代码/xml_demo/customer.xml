@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="customer.xsl"?>
+<customers>
+  <customer>
+    <name>张三</name>
+    <order>1</order>
+    <order>2</order>
+  </customer>
+  <customer>
+    <name>李四</name>
+    <order>1</order>
+    <order>2</order>
+    <order>3</order>
+  </customer>
+</customers>
