@@ -101,9 +101,9 @@
 
 参与者：[@Tingbing-Yan]()   [@Shaozhe-Hao](https://github.com/haoosz)   [@Linhai-Zhang]()
 
-整理不易！欢迎大家多多投币支持我们！
+整理不易！欢迎大家多多投币[支持我们](./pic/donate.jpg)！
 
-![](./pic/donate.jpg)
+: ![](./pic/donate.jpg)
 
 ## 版权声明
 
