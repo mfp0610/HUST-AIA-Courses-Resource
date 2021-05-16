@@ -103,7 +103,7 @@
 
 整理不易！欢迎大家多多投币支持我们！
 
-<img src="./pic/donate.jpg" width="20%" align=left><br>
+<img src="./pic/donate.jpg" width="20%" align=left> <br>
 
 ## 版权声明
 
