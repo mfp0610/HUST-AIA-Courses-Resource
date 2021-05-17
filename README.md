@@ -101,7 +101,7 @@
 
 发起者：[@Fanpeng-Meng](https://github.com/mfp0610)   [@Zi'ao-Li](https://github.com/Leeziao)   [@Wenjie-Qu](https://github.com/quwenjie)
 
-参与者：[@Tingbing-Yan]()   [@Shaozhe-Hao](https://github.com/haoosz)   [@Shengzhi-Shi](https://github.com/Shis-zhi)   [@Linhai-Zhang]()
+参与者：[@Tingbing-Yan]()   [@Shaozhe-Hao](https://github.com/haoosz)   [@Shengzhi-Shi](https://github.com/Shis-zhi)   [@Linhai-Zhang]()   [@Shaoyuan-Xie](https://github.com/Daniel-xsy)
 
 整理不易！欢迎大家多多投币[支持我们](./pic/donate.jpg)！
 
