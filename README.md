@@ -78,7 +78,7 @@
 > > >
 > > > [人机交互](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%AC%AC6%E5%AD%A6%E6%9C%9F/%E4%BA%BA%E6%9C%BA%E4%BA%A4%E4%BA%92)：课件
 > > >
-> > > [系统仿真与Matlab](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%AC%AC6%E5%AD%A6%E6%9C%9F/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E6%A8%A1%E4%B8%8EMatlab)_：课件，案例，试卷
+> > > [系统仿真与Matlab](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%AC%AC6%E5%AD%A6%E6%9C%9F/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E6%A8%A1%E4%B8%8EMatlab)：课件，案例，试卷
 >
 > 公共选修课
 >
@@ -101,7 +101,7 @@
 
 发起者：[@Fanpeng-Meng](https://github.com/mfp0610)   [@Zi'ao-Li](https://github.com/Leeziao)   [@Wenjie-Qu](https://github.com/quwenjie)
 
-参与者：[@Tingbing-Yan]()   [@Shaozhe-Hao](https://github.com/haoosz)   [@Linhai-Zhang]()
+参与者：[@Tingbing-Yan]()   [@Shaozhe-Hao](https://github.com/haoosz)   [@Shengzhi-Shi](https://github.com/Shis-zhi)   [@Linhai-Zhang]()
 
 整理不易！欢迎大家多多投币[支持我们](./pic/donate.jpg)！
 
