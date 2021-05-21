@@ -83,6 +83,12 @@
 > 公共选修课
 >
 > > 暂无
+>
+> 其他资料
+>
+> > 整理了与我专业相关的课外自我学习资料。
+> >
+> > 特别感谢：[@Shaoyuan-Xie](https://github.com/Daniel-xsy) 同学的整理
 
 注释：
 
@@ -101,7 +107,9 @@
 
 发起者：[@Fanpeng-Meng](https://github.com/mfp0610)   [@Zi'ao-Li](https://github.com/Leeziao)   [@Wenjie-Qu](https://github.com/quwenjie)
 
-参与者：[@Tingbing-Yan]()   [@Shaozhe-Hao](https://github.com/haoosz)   [@Shengzhi-Shi](https://github.com/Shis-zhi)   [@Linhai-Zhang]()   [@Shaoyuan-Xie](https://github.com/Daniel-xsy)   [@Lihui-Qian](https://github.com/qlhhahaha)
+参与者：[@Tingbing-Yan]()   [@Shaozhe-Hao](https://github.com/haoosz)   [@Shengzhi-Shi](https://github.com/Shis-zhi)   [@Linhai-Zhang]()   [@Shaoyuan-Xie](https://github.com/Daniel-xsy)   [@Lihui-Qian](https://github.com/qlhhahaha)   [@Haochen-Xie](https://github.com/magicianA)
+
+（参与者名单按照提交资料先后排序）
 
 整理不易！欢迎大家多多投币[支持我们](./pic/donate.jpg)！
 
@@ -111,4 +119,3 @@
 所有资源，著作权归原作者所有，此repo的目的是**学习交流**；
 
 如果使用者的不当使用造成不良后果，与此repo的贡献者无关。
-
