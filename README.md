@@ -115,7 +115,6 @@
 
 ## 友情链接
 
-[中国矿业大学计算机学院课程资料整理](https://github.com/cumtcssuld/RSP_of_CUMTCS)
 
 ## 版权声明
 
