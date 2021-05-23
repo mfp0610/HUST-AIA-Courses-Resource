@@ -113,6 +113,9 @@
 
 整理不易！欢迎大家多多投币[支持我们](./pic/donate.jpg)！
 
+## 友情链接
+
+[中国矿业大学计算机学院课程资料整理](https://github.com/cumtcssuld/RSP_of_CUMTCS)
 
 ## 版权声明
 
