@@ -1,0 +1,6 @@
+chome打不开带有xsl的xml文档
+解决方法
+如果使用chrome浏览器，请关闭所有chome窗口，在命令行状态进入到chome的安装目录，运行
+ .\chrome.exe --allow-file-access-from-files
+ 则可以打开带有xsl的xml文档
+

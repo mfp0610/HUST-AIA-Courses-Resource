@@ -1,0 +1,130 @@
+{
+  "errNo": "0",
+  "data": {
+    "weather": {
+      "setting": {
+        "city": "武汉"
+      },
+      "content": {
+        "week": "周五 04月08日 ",
+        "city": "武汉",
+        "today": {
+          "time": "周五 04月08日 (实时：21℃)",
+          "date": "04月08日",
+          "img": [
+            "http://s1.bdstatic.com/r/www/aladdin/img/new_weath/bigicon/5.png",
+            "http://s1.bdstatic.com/r/www/aladdin/img/new_weath/bigicon/5.png"
+          ],
+          "condition": "多云",
+          "wind": "微风",
+          "temp": "21℃",
+          "link": "http://www.weather.com.cn/weather/101200101.shtml",
+          "imgs": {
+            "1": "a1",
+            "0": "a1"
+          },
+          "pm25": "89",
+          "pollution": "10",
+          "pm25url": "//www.baidu.com/s?wd=%E6%AD%A6%E6%B1%89%E7%A9%BA%E6%B0%94%E8%B4%A8%E9%87%8F%E6%8C%87%E6%95%B0&amp;tn=baidutop10&amp;rsv_idx=2",
+          "pmdate": "2016-04-08"
+        },
+        "tomorrow": {
+          "time": "周六",
+          "date": "04月09日",
+          "img": [
+            "http://s1.bdstatic.com/r/www/aladdin/img/new_weath/icon/8.png",
+            ""
+          ],
+          "condition": "阵雨转多云",
+          "wind": "微风",
+          "temp": "23 ~ 14℃",
+          "link": "http://www.weather.com.cn/weather/101200101.shtml",
+          "imgs": {
+            "1": "a7",
+            "0": "a7"
+          },
+          "pm25": "89",
+          "pollution": "10",
+          "pm25url": "//www.baidu.com/s?wd=%E6%AD%A6%E6%B1%89%E7%A9%BA%E6%B0%94%E8%B4%A8%E9%87%8F%E6%8C%87%E6%95%B0&amp;tn=baidutop10&amp;rsv_idx=2",
+          "pmdate": "2016-04-08"
+        },
+        "thirdday": {
+          "time": "周日",
+          "date": "04月10日",
+          "img": [
+            "http://s1.bdstatic.com/r/www/aladdin/img/new_weath/icon/5.png",
+            ""
+          ],
+          "condition": "多云",
+          "wind": "微风",
+          "temp": "25 ~ 15℃",
+          "link": "http://www.weather.com.cn/weather/101200101.shtml",
+          "imgs": {
+            "1": "a1",
+            "0": "a1"
+          },
+          "pm25": "//www.baidu.com/s?wd=%E6%AD%A6%E6%B1%89%E7%A9%BA%E6%B0%94%E8%B4%A8%E9%87%8F%E6%8C%87%E6%95%B0&amp;tn=baidutop10&amp;rsv_idx=2",
+          "pollution": "10",
+          "pm25url": "",
+          "pmdate": "2016-04-08"
+        },
+        "fourthday": {
+          "time": "周一",
+          "date": "04月11日",
+          "img": [
+            "http://s1.bdstatic.com/r/www/aladdin/img/new_weath/icon/5.png",
+            ""
+          ],
+          "condition": "多云转晴",
+          "wind": "微风",
+          "temp": "23 ~ 14℃",
+          "link": "http://www.weather.com.cn/weather/101200101.shtml",
+          "imgs": {
+            "1": "a1",
+            "0": "a1"
+          }
+        },
+        "fifthday": {
+          "time": "周二",
+          "date": "04月12日",
+          "img": [
+            "http://s1.bdstatic.com/r/www/aladdin/img/new_weath/icon/1.png",
+            ""
+          ],
+          "condition": "晴转多云",
+          "wind": "微风",
+          "temp": "24 ~ 14℃",
+          "link": "http://www.weather.com.cn/weather/101200101.shtml",
+          "imgs": {
+            "1": "a0",
+            "0": "a0"
+          }
+        },
+        "linkseven": "http://www.weather.com.cn/weather/101200101.shtml#7d",
+        "source": {
+          "name": "中国气象频道",
+          "url": "http://www.mywtv.cn/"
+        },
+        "cityname": "武汉",
+        "calendar": {
+          "time": "1460085711083",
+          "lunar": "三月初二",
+          "festival": false,
+          "weatherSourceUrl": "http://www.weather.com.cn/weather/101200101.shtml#7d"
+        },
+        "currenttemp": "21℃",
+        "warning": {
+          "title": "湖北省武汉市发布大雾橙色预警",
+          "color": "#ff9900",
+          "imgurl": "http://s1.bdstatic.com/r/www/aladdin/img/new_weath/warnicon/12.png",
+          "url": "http://www.weather.com.cn/alarm/newalarmcontent.shtml?file=1012001-20160408053400-1203.html"
+        },
+        "pslink": "//www.baidu.com/s?tn=baidutop10&amp;rsv_idx=2&amp;wd=%E6%AD%A6%E6%B1%89%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5",
+        "weatherType": "aladdin",
+        "isauto": false,
+        "ipcity": "武汉",
+        "province": "湖北"
+      }
+    }
+  }
+}

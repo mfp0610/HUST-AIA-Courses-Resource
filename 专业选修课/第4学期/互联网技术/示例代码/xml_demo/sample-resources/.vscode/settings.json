@@ -1,0 +1,12 @@
+{
+
+    "xmlLang.xmlCatalogFiles":  "catalog/catalog.xml",
+    
+    "xmlLang.xmlAssociations": [
+        {
+        	"fileNamePattern": "*/file_association/invoice_*.xml",
+			"systemId": "file_association/invoice.xsd" 
+		}
+    ]
+ 
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>天气查询</title>
+    <style>
+        .maxbox {
+            width: 640px;
+            height: 180px;
+            margin: 30px auto;
+        }
+
+        .box {
+            width: 110px;
+            height: 150px;
+            text-align: center;
+        }
+
+        .box1 {
+            position: absolute;
+            top: 50px;
+            left: 5px;
+        }
+
+        .box2 {
+            position: absolute;
+            top: 50px;
+            left: 120px;
+        }
+
+        .box3 {
+            position: absolute;
+            top: 50px;
+            left: 235px;
+        }
+
+        .box4 {
+            position: absolute;
+            top: 50px;
+            left: 350px;
+        }
+
+        .box5 {
+            position: absolute;
+            top: 50px;
+            left: 465px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <span id="date"></span>
+            <span id="lunar">农历 </span>
+            <hr />           
+        </div>
+        <div class="maxbox">
+            <div class="box box1">
+                <box1 class="content">
+                    <div>今天 <span id="time">&#40</span><span>&#41</span> </div>
+                    <img src="" />
+                    <div id="temp"></div>
+                    <div id="condition"></div>
+                    <div id="wind"></div>
+                </box1>
+            </div>
+            <div class="box box2">
+                <box2 class="content">
+                    <div>明天 <span id="time">&#40</span><span>&#41</span> </div>
+                    <img src="" />
+                    <div id="temp"></div>
+                    <div id="condition"></div>
+                    <div id="wind"></div>
+                </box2>
+            </div>
+            <div class="box box3">
+                <box2 class="content">
+                    <div>后天 <span id="time">&#40</span><span>&#41</span> </div>
+                    <img src="" />
+                    <div id="temp"></div>
+                    <div id="condition"></div>
+                    <div id="wind"></div>
+                </box2>
+            </div>
+            <div class="box box4">
+                <box2 class="content">
+                    <div> <span id="time">&#40</span><span>&#41</span> </div>
+                    <img src="" />
+                    <div id="temp"></div>
+                    <div id="condition"></div>
+                    <div id="wind"></div>
+                </box2>
+            </div>
+            <div class="box box5">
+                <box2 class="content">
+                    <div> <span id="time">&#40</span><span>&#41</span> </div>
+                    <img src="" />
+                    <div id="temp"></div>
+                    <div id="condition"></div>
+                    <div id="wind"></div>
+                </box2>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        var iconList = {
+            a0: 'weather_icon/a0.jpg',
+            a1: 'weather_icon/a1.jpg',
+            a2: 'weather_icon/a2.jpg',
+            a3: 'weather_icon/a3.jpg',
+            a4: 'weather_icon/a4.jpg',
+            a5: 'weather_icon/a5.jpg',
+            a6: 'weather_icon/a6.jpg',
+            a7: 'weather_icon/a7.jpg',
+            a8: 'weather_icon/a8.jpg',
+            a9: 'weather_icon/a9.jpg',
+            a10: 'weather_icon/a10.jpg',
+            a11: 'weather_icon/a11.jpg',
+            a12: 'weather_icon/a12.jpg',
+            a13: 'weather_icon/a13.jpg',
+            a14: 'weather_icon/a14.jpg',
+            a15: 'weather_icon/a15.jpg',
+            a16: 'weather_icon/a16.jpg',
+            a17: 'weather_icon/a17.jpg',
+            a18: 'weather_icon/a18.jpg',
+            a19: 'weather_icon/a19.jpg',
+            a20: 'weather_icon/a20.jpg',
+            a21: 'weather_icon/a21.jpg',
+            a22: 'weather_icon/a22.jpg',
+            a23: 'weather_icon/a23.jpg',
+            a24: 'weather_icon/a24.jpg',
+            a25: 'weather_icon/a25.jpg',
+            a26: 'weather_icon/a26.jpg',
+            a27: 'weather_icon/a27.jpg',
+            a28: 'weather_icon/a28.jpg',
+            a29: 'weather_icon/a29.jpg',
+            a30: 'weather_icon/a30.jpg',
+            a31: 'weather_icon/a31.jpg',
+            a32: 'weather_icon/a32.jpg',
+            a33: 'weather_icon/a33.jpg',
+            a34: 'weather_icon/a34.jpg',
+        }
+        var jsonHandler = function (weatherInfo) {
+            var data = weatherInfo.data.weather.content;
+            var str = data.today.time;
+            document.querySelector('#date').textContent += data.today.date;
+            document.querySelector('#lunar').textContent += data.calendar.lunar;
+            document.querySelector('#time').textContent += str.substring(0, 2);
+            document.querySelector("img").src = iconList[data.today.imgs[0]];
+            document.querySelector('#temp').textContent += data.today.temp;
+            document.querySelector('#condition').textContent += data.today.condition;
+            document.querySelector('#wind').textContent += data.today.wind;
+            document.querySelectorAll('#time')[1].textContent += data.tomorrow.time;
+            document.querySelectorAll("img")[1].src = iconList[data.tomorrow.imgs[0]];
+            document.querySelectorAll('#temp')[1].textContent += data.tomorrow.temp;
+            document.querySelectorAll('#condition')[1].textContent += data.tomorrow.condition;
+            document.querySelectorAll('#wind')[1].textContent += data.tomorrow.wind;
+            document.querySelectorAll('#time')[2].textContent += data.thirdday.time;
+            document.querySelectorAll("img")[2].src = iconList[data.thirdday.imgs[0]];
+            document.querySelectorAll('#temp')[2].textContent += data.thirdday.temp;
+            document.querySelectorAll('#condition')[2].textContent += data.thirdday.condition;
+            document.querySelectorAll('#wind')[2].textContent += data.thirdday.wind;
+            document.querySelectorAll('#time')[3].textContent += data.fourthday.time;
+            document.querySelectorAll("img")[3].src = iconList[data.fourthday.imgs[0]];
+            document.querySelectorAll('#temp')[3].textContent += data.fourthday.temp;
+            document.querySelectorAll('#condition')[3].textContent += data.fourthday.condition;
+            document.querySelectorAll('#wind')[3].textContent += data.fourthday.wind;
+            document.querySelectorAll('#time')[4].textContent += data.fifthday.time;
+            document.querySelectorAll("img")[4].src = iconList[data.fifthday.imgs[0]];
+            document.querySelectorAll('#temp')[4].textContent += data.fifthday.temp;
+            document.querySelectorAll('#condition')[4].textContent += data.fifthday.condition;
+            document.querySelectorAll('#wind')[4].textContent += data.fifthday.wind;
+
+        }
+
+        var jsonData = document.createElement("script");
+        jsonData.src = "https://www.baidu.com/home/other/data/weatherInfo?city=" + encodeURI("武汉") + "&&callback=jsonHandler"
+        document.querySelector("head").appendChild(jsonData)
+
+    </script>
+
+</body>
+
+</html>

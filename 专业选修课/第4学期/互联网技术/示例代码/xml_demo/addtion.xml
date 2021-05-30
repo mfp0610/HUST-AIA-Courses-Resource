@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="addition.xsl"?>
+<algebra>
+	<number1>34.09</number1>
+	<number2>-17.12</number2>
+</algebra>

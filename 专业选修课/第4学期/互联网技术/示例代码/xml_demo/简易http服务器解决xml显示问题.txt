@@ -1,0 +1,23 @@
+.\chrome.exe --allow-file-access-from-files
+这个模式有点安全风险，可能导致硬盘上的文件都可以访问。
+更好的解决方案是从http服务器上访问带有xsl的xml文档。
+除了安装现有的http服务器之外，还可以安装简易的http服务器。
+方法1：采用node.js包管理程序
+要求预先安装node，node自带包管理程序npm
+在命令行窗口中，运行下列命令：
+npm install -g http-server
+在包含xml文件的目录下，运行http-seerver
+会显示如下提示信息
+Starting up http-server, serving ./
+Available on:
+ http:xxx.xxx.xxx.xxx:8080
+ http:192.168.88.1:8080
+ http:192.168.0.7:8080
+ http:127.0.0.1:8080
+Hit CTRL-C to stop the server
+上面的ip地址可能不同
+然后在浏览器地址栏中输入localhost:8080/xxx.xml
+xxx.xml为你的xml文件
+方法2：如果安装了python，在包含xml文件的目录下，运行
+python -m SimpleHTTPServer
+访问http://localhost:8000/xxx.xml

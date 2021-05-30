@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>天气查询</title>
+    <style>
+        body {
+            background-color: rgba(206, 205, 205, 0.637);
+        }
+        .weatherTitle {
+            text-align: center;
+        }
+        #today {
+            color: red;
+        }
+        .mainContainer {
+            width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-color:black;
+            border-style: solid;
+        }
+        .dayContainer {
+            display: inline-block;
+            width: 160px;
+            box-sizing: border-box;
+            text-align: center;
+            /* border-style: solid; */
+        }
+        .dayContainer:hover {
+            background: #eff1ef;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainContainer">
+        <h1 class="weatherTitle">武汉市的天气</h1>
+        <div class="dayContainer">
+            <div id="today">今天</div>
+            <!-- <div id="lunar">农历</div> -->
+            <div class="temp">温度：</div>
+            <div class="condition"></div>
+            <img src="" />
+          </div><div class="dayContainer">
+            <div id="tomorrow">明天</div>
+            <div class="temp">温度：</div>
+            <div class="condition"></div>
+            <img src="" />            
+        </div><div class="dayContainer">
+            <div id="thirdday">后天</div>
+            <div class="temp">温度：</div>
+            <div class="condition"></div>
+            <img src="" />            
+        </div><div class="dayContainer">
+            <div id="fourthday"></div>
+            <div class="temp">温度：</div>
+            <div class="condition"></div>
+            <img src="" />            
+        </div><div class="dayContainer">
+            <div id="fifthday"></div>
+            <div class="temp">温度：</div>
+            <div class="condition"></div>
+            <img src="" />            
+        </div>
+    </div>
+	<script>
+    var iconMap = {
+        a0 : 'weather_icon/a0.png',
+        a1 : 'weather_icon/a1.png',
+        a2 : 'weather_icon/a2.png',
+        a3 : 'weather_icon/a3.png',
+        a4 : 'weather_icon/a4.png',
+        a5 : 'weather_icon/a5.png',
+        a6 : 'weather_icon/a6.png',
+        a7 : 'weather_icon/a7.png',
+        a8 : 'weather_icon/a8.png',
+        a9 : 'weather_icon/a9.png',
+        a10 : 'weather_icon/a10.png',
+        a11 : 'weather_icon/a11.png',
+        a12 : 'weather_icon/a12.png',
+        a13 : 'weather_icon/a13.png',
+        a14 : 'weather_icon/a14.png',
+        a15 : 'weather_icon/a15.png',
+        a16 : 'weather_icon/a16.png',
+        a17 : 'weather_icon/a17.png',
+        a18 : 'weather_icon/a18.png',
+        a19 : 'weather_icon/a19.png',
+        a20 : 'weather_icon/a20.png',
+        a21 : 'weather_icon/a21.png',
+        a22 : 'weather_icon/a22.png',
+        a23 : 'weather_icon/a23.png',
+        a24 : 'weather_icon/a24.png',
+        a25 : 'weather_icon/a25.png',
+        a26 : 'weather_icon/a26.png',
+        a27 : 'weather_icon/a27.png',
+        a28 : 'weather_icon/a28.png',
+        a29 : 'weather_icon/a29.png',
+        a30 : 'weather_icon/a30.png',
+        a31 : 'weather_icon/a31.png',
+        a32 : 'weather_icon/a32.png',
+        a33 : 'weather_icon/a33.png',
+        a34 : 'weather_icon/a34.png'
+    }
+
+    var jsonHandler = function(weatherInfo){
+        var data = weatherInfo.data.weather.content;
+
+        document.querySelector('#today').textContent += data.week;
+        // document.querySelector('#lunar').textContent += data.calendar.lunar;
+        var tempList = document.querySelectorAll(".temp");
+        tempList[0].textContent += data.today.temp;
+        tempList[1].textContent += data.tomorrow.temp;
+        tempList[2].textContent += data.thirdday.temp;
+        tempList[3].textContent += data.fourthday.temp;
+        tempList[4].textContent += data.fifthday.temp;
+
+        var conditionList = document.querySelectorAll(".condition");
+        conditionList[0].textContent += data.today.condition;
+        conditionList[1].textContent += data.tomorrow.condition;
+        conditionList[2].textContent += data.thirdday.condition;
+        conditionList[3].textContent += data.fourthday.condition;
+        conditionList[4].textContent += data.fifthday.condition;
+
+        document.querySelector("#tomorrow").textContent += (data.tomorrow.time + data.tomorrow.date);
+        document.querySelector("#thirdday").textContent += (data.thirdday.time + data.thirdday.date);
+        document.querySelector("#fourthday").textContent += (data.fourthday.time + data.fourthday.date);
+        document.querySelector("#fifthday").textContent += (data.fifthday.time + data.fifthday.date);
+
+        var imgList = document.querySelectorAll("img");
+        imgList[0].src = iconMap[data.today.imgs[0]];
+        imgList[1].src = iconMap[data.tomorrow.imgs[0]];
+        imgList[2].src = iconMap[data.thirdday.imgs[0]];
+        imgList[3].src = iconMap[data.fourthday.imgs[0]];
+        imgList[4].src = iconMap[data.fifthday.imgs[0]];
+    }
+    var jsonData = document.createElement("script");
+    jsonData.src = "https://www.baidu.com/home/other/data/weatherInfo?city="+encodeURI("武汉")+"&&callback=jsonHandler"
+    document.querySelector("head").appendChild(jsonData)
+    
+	</script>
+</body>
+</html>

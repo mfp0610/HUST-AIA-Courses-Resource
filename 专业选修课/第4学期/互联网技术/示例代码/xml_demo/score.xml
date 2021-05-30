@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="score.xsl"?>
+<Classes>
+	<Class>
+		<name>高等数学</name>
+		<hours>64</hours>
+		<score>80</score>
+	</Class>
+	<Class>
+		<name>English</name>
+		<hours>64</hours>
+		<score>70</score>
+	</Class>
+	<Class>
+		<name>体育</name>
+		<hours>24</hours>
+		<score>90</score>
+	</Class>
+	<Class>
+		<name>Physics</name>
+		<hours>96</hours>
+		<score>89</score>
+	</Class>
+</Classes>
+
