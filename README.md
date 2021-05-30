@@ -50,6 +50,8 @@
 > >
 > > 第4学期
 > >
+> > > [电子线路设计测试与实验](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E5%BF%85%E4%BF%AE%E8%AF%BE/%E7%AC%AC3%E5%AD%A6%E6%9C%9F/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%8E%9F%E7%90%86)
+> > >
 > > > [计算方法](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E5%BF%85%E4%BF%AE%E8%AF%BE/%E7%AC%AC4%E5%AD%A6%E6%9C%9F/%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95)：课件，复习ppt，试卷
 > >
 > > 第5学期
