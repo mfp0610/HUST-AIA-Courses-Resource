@@ -53,6 +53,8 @@
 > > > [电子线路设计测试与实验](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E5%BF%85%E4%BF%AE%E8%AF%BE/%E7%AC%AC4%E5%AD%A6%E6%9C%9F/%E7%94%B5%E5%AD%90%E7%BA%BF%E8%B7%AF%E8%AE%BE%E8%AE%A1%E6%B5%8B%E8%AF%95%E5%AE%9E%E9%AA%8C): 数字钟代码
 > > >
 > > > [计算方法](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E5%BF%85%E4%BF%AE%E8%AF%BE/%E7%AC%AC4%E5%AD%A6%E6%9C%9F/%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95)：课件，复习ppt，试卷
+> > >
+> > > [信号分析](必修课\第4学期\信号分析)：课件
 > >
 > > 第5学期
 > >
