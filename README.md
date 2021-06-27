@@ -123,7 +123,7 @@
 
 ## 友情链接
 
-华科人生存全面指南：[awesome-hust](https://github.com/recolic/awesome-hust)
+华科人生存全面指南：[awesom-hust](https://github.com/recolic/awesome-hust)
 
 ## 版权声明
 
