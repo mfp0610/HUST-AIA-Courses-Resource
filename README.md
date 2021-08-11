@@ -26,7 +26,7 @@
 > >
 > > > [C语言](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E5%BF%85%E4%BF%AE%E8%AF%BE/%E7%AC%AC1%E5%AD%A6%E6%9C%9F/C%E8%AF%AD%E8%A8%80)：课件，BC工具包
 > > >
-> > > [大学物理](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E5%BF%85%E4%BF%AE%E8%AF%BE/%E7%AC%AC1%E5%AD%A6%E6%9C%9F/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86)：课件（上、下），复习ppt（上、下），同步辅导
+> > > [大学物理](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E5%BF%85%E4%BF%AE%E8%AF%BE/%E7%AC%AC1%E5%AD%A6%E6%9C%9F/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86)：课件（上、下），复习ppt（上、下），同步辅导，思维导图
 > > >
 > > > [微积分](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E5%BF%85%E4%BF%AE%E8%AF%BE/%E7%AC%AC1%E5%AD%A6%E6%9C%9F/%E5%BE%AE%E7%A7%AF%E5%88%86)：试卷（下）
 > > >
@@ -54,11 +54,11 @@
 > > >
 > > > [计算方法](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E5%BF%85%E4%BF%AE%E8%AF%BE/%E7%AC%AC4%E5%AD%A6%E6%9C%9F/%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95)：课件，复习ppt，试卷
 > > >
-> > > [信号分析](必修课\第4学期\信号分析)：课件
+> > > [信号分析](必修课\第4学期\信号分析)：课件，思维导图
 > > >
-> > > [数字电路](必修课\第4学期\数字电路)：课件
+> > > [数字电路](必修课\第4学期\数字电路)：课件，思维导图
 > > >
-> > > [模拟电路](必修课\第4学期\模拟电路)：课件
+> > > [模拟电路](必修课\第4学期\模拟电路)：课件，思维导图
 > >
 > > 第5学期
 > >
@@ -113,9 +113,9 @@
 
 所属组织：[@AIAHUB](https://github.com/AIAHUB)
 
-发起者：[@Fanpeng-Meng](https://github.com/mfp0610)   [@Zi'ao-Li](https://github.com/Leeziao)   [@Wenjie-Qu](https://github.com/quwenjie)
+发起者：[@mfp0610](https://github.com/mfp0610)   [@Leeziao](https://github.com/Leeziao)   [@quwenjie](https://github.com/quwenjie)
 
-参与者：[@Tingbing-Yan]()   [@Shaozhe-Hao](https://github.com/haoosz)   [@Shengzhi-Shi](https://github.com/Shis-zhi)   [@Linhai-Zhang]()   [@Shaoyuan-Xie](https://github.com/Daniel-xsy)   [@Lihui-Qian](https://github.com/qlhhahaha)   [@Haochen-Xie](https://github.com/magicianA)
+参与者：[@Tingbing-Yan]()   [@haoosz](https://github.com/haoosz)   [@Shis-zhi](https://github.com/Shis-zhi)   [@Linhai-Zhang]()   [@Daniel-xsy](https://github.com/Daniel-xsy)   [@qlhhahaha](https://github.com/qlhhahaha)   [@magicianA](https://github.com/magicianA)   [@CorrineChanY](https://github.com/CorrineChanY)
 
 （参与者名单按照提交资料先后排序）
 
