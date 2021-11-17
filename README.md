@@ -50,7 +50,7 @@
 > >
 > > 第4学期
 > >
-> > > [电子线路设计测试与实验](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E5%BF%85%E4%BF%AE%E8%AF%BE/%E7%AC%AC4%E5%AD%A6%E6%9C%9F/%E7%94%B5%E5%AD%90%E7%BA%BF%E8%B7%AF%E8%AE%BE%E8%AE%A1%E6%B5%8B%E8%AF%95%E5%AE%9E%E9%AA%8C): 数字钟代码
+> > > [电子线路设计测试与实验](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E5%BF%85%E4%BF%AE%E8%AF%BE/%E7%AC%AC4%E5%AD%A6%E6%9C%9F/%E7%94%B5%E5%AD%90%E7%BA%BF%E8%B7%AF%E8%AE%BE%E8%AE%A1%E6%B5%8B%E8%AF%95%E5%AE%9E%E9%AA%8C): 数字钟代码，实验报告
 > > >
 > > > [计算方法](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E5%BF%85%E4%BF%AE%E8%AF%BE/%E7%AC%AC4%E5%AD%A6%E6%9C%9F/%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95)：课件，复习ppt，试卷
 > > >
@@ -63,6 +63,10 @@
 > > 第5学期
 > >
 > > > [自动控制原理](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E5%BF%85%E4%BF%AE%E8%AF%BE/%E7%AC%AC5%E5%AD%A6%E6%9C%9F/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86)：课件，试卷
+> > >
+> > > [传感器](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/必修课/第5学期/传感器/课件)：课件
+> > >
+> > > [运筹学](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/必修课/第5学期/运筹学/课件)：课件
 > >
 > > 第6学期
 > >
@@ -75,8 +79,12 @@
 > > > [Java](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%AC%AC4%E5%AD%A6%E6%9C%9F/java)：课件，书例代码，样卷
 > > >
 > > > [数据库技术](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%AC%AC4%E5%AD%A6%E6%9C%9F/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8A%80%E6%9C%AF)：课件，试卷
-> > > 
+> > >
 > > > [互联网技术](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%AC%AC4%E5%AD%A6%E6%9C%9F/%E4%BA%92%E8%81%94%E7%BD%91%E6%8A%80%E6%9C%AF)：课件，示例代码，课程作业（by mfp）
+> >
+> > 第5学期
+> >
+> > > [电子商务](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/专业选修课/第5学期/电子商务)：课件
 > >
 > > 第6学期
 > >
@@ -115,7 +123,7 @@
 
 发起者：[@mfp0610](https://github.com/mfp0610)   [@Leeziao](https://github.com/Leeziao)   [@quwenjie](https://github.com/quwenjie)
 
-参与者：[@Tingbing-Yan]()   [@haoosz](https://github.com/haoosz)   [@Shis-zhi](https://github.com/Shis-zhi)   [@Linhai-Zhang]()   [@Daniel-xsy](https://github.com/Daniel-xsy)   [@qlhhahaha](https://github.com/qlhhahaha)   [@magicianA](https://github.com/magicianA)   [@CorrineChanY](https://github.com/CorrineChanY)
+参与者：[@Tingbing-Yan]()   [@haoosz](https://github.com/haoosz)   [@Shis-zhi](https://github.com/Shis-zhi)   [@Linhai-Zhang]()   [@Daniel-xsy](https://github.com/Daniel-xsy)   [@qlhhahaha](https://github.com/qlhhahaha)   [@magicianA](https://github.com/magicianA)   [@CorrineChanY](https://github.com/CorrineChanY) [@PoloWitty](https://github.com/PoloWitty)
 
 （参与者名单按照提交资料先后排序）
 
