@@ -71,6 +71,8 @@
 > > 第6学期
 > >
 > > > [计算机网络](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E5%BF%85%E4%BF%AE%E8%AF%BE/%E7%AC%AC6%E5%AD%A6%E6%9C%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C)：试卷
+> > > 
+> > > [计算机视觉](https://github.com/AIAHUB/HUST-AIA-Courses-Resource/tree/main/%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%AC%AC6%E5%AD%A6%E6%9C%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89)：试卷
 >
 > 专业选修课
 >
