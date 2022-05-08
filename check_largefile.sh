@@ -1,1 +1,1 @@
-find -size +10M
+find . -size +100M
