@@ -121,8 +121,6 @@
 
 ## 贡献者名录
 
-所属组织：[@AIAHUB](https://github.com/AIAHUB)
-
 发起者：[@mfp0610](https://github.com/mfp0610)   [@Leeziao](https://github.com/Leeziao)   [@quwenjie](https://github.com/quwenjie)
 
 参与者：[@Tingbing-Yan]()   [@haoosz](https://github.com/haoosz)   [@Shis-zhi](https://github.com/Shis-zhi)   [@Linhai-Zhang]()   [@Daniel-xsy](https://github.com/Daniel-xsy)   [@qlhhahaha](https://github.com/qlhhahaha)   [@magicianA](https://github.com/magicianA)   [@CorrineChanY](https://github.com/CorrineChanY) [@PoloWitty](https://github.com/PoloWitty)
